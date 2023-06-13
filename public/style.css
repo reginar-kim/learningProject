@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+  }
+  
+  body::after {
+    content: "";
+    background: url('bg.jpg');
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  nav {
+    align-items: center;
+    background-color: #c89898;
+    white-space: nowrap;
+    display: flex;
+    height: 80px;
+    padding: 5px;
+    text-transform: uppercase;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #1d691a;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    color: #34502c;
+    text-decoration: underline;
+  }
+
+  div {
+    background-color: #d86262;
+    border: 1px solid #691a1a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  div h1 {
+    color: #691a4b;
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  div h2 {
+    color: #691a1a;
+    font-size: 1em;
+    margin: 5px 0;
+  }
+
+  div p {
+    color: #1d691a;
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  div img {
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+  }
+
+  div button {
+    background-color: #1d691a;
+    border: 1px solid #34502c;
+    border-radius: 5px;
+    color: #efd1d1;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin: 10px 0;
+    padding: 5px;
+  }
+
+  div button:hover {
+    background-color: #34502c;
+    border: 1px solid #1d691a;
+    color: #efd1d1;
+  }
+
+  div button:active {
+    background-color: #1d691a;
+    border: 1px solid #34502c;
+    color: #efd1d1;
+  }
+
+  body {
+    background-color: #3c0808;
+    color: #1d691a;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
